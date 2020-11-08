@@ -12,6 +12,23 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.example.crud_mysql.ui.categorias.Categoria"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.example.crud_mysql.ui.producto.Producto"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_producto" />
+
+    <fragment
+        android:id="@+id/nav_datos"
+        android:name="com.example.crud_mysql.ui.datos.Datos"
+        android:label="@string/menu_datos"
+        tools:layout="@layout/fragment_datos" />
+
+    <!--<fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.crud_mysql.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
@@ -21,5 +38,7 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.crud_mysql.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_slideshow" />-->
+
+
 </navigation>

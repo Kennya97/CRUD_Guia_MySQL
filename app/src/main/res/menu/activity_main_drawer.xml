@@ -9,6 +9,35 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home"
             android:iconTint="#000"/>
+
+
+
+
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/ic_cat"
+            android:title="@string/menu_categoria"
+            android:iconTint="#000"/>
+
+
+
+
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_pro"
+            android:title="@string/menu_producto"
+            android:iconTint="#000"/>
+
+
+
+        <item
+            android:id="@+id/nav_datos"
+            android:icon="@drawable/ic_datos"
+            android:title="@string/menu_datos"
+            android:iconTint="#000"/>
+
+<!--
+
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
@@ -18,6 +47,6 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow"
-            android:iconTint="#000"/>
+            android:iconTint="#000"/>-->
     </group>
 </menu>

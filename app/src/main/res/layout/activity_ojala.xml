@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/listado"
+    tools:context=".ui.categorias.Ojala">
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll02"
+        android:weightSum="100"
+        android:id="@+id/ll03"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cargar Lista"
+            android:id="@+id/btnLoad"
+            android:layout_weight="50"
+            android:background="@color/negro"
+            android:textColor="@color/white"
+            />
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll03"
+        android:id="@+id/lvLista"
+        android:cacheColorHint="@color/negro"
+
+
+        />
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|bottom"
+        app:menu_icon="@drawable/ic_co24"
+        app:menu_fab_size="normal"
+        app:menu_backgroundColor="#708DE3EA"
+        app:menu_shadowColor="@color/negro"
+        android:outlineAmbientShadowColor="@color/negro"
+        app:menu_colorNormal="#3A878E"
+
+
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/it1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_size="mini"
+            android:src="@drawable/ic_volver"
+            app:fab_label="Volver"
+            app:fab_colorNormal="@color/negro"
+
+            />
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+</RelativeLayout>
+

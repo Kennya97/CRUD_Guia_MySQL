@@ -1,4 +1,4 @@
-package com.example.crud_mysql.ui.home;
+package com.example.crud_mysql;
 
 
 
